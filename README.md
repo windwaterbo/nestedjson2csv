@@ -64,7 +64,7 @@ var json = [
     }
 }];
 
-json2csv({data: json,  fields: ['logger.datetime','logger.who', 'logger.cat.name','logger.cat.age','logger.cat.gender']}, function(err, csv) {
+nestedjson2csv({data: json,  fields: ['logger.datetime','logger.who', 'logger.cat.name','logger.cat.age','logger.cat.gender']}, function(err, csv) {
   if (err) console.log(err);
   console.log(csv);
 });
