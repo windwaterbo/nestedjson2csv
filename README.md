@@ -109,7 +109,7 @@ datetime, host, pet name, pet age, pet gender
 Use a custom delimiter to create tsv files. Add it as the value of the del property on the parameters:
 
 ```javascript
-json2csv({data: json, fields: ['logger.datetime','logger.who', 'logger.cat.name','logger.cat.age','logger.cat.gender'],
+nestedjson2csv({data: json, fields: ['logger.datetime','logger.who', 'logger.cat.name','logger.cat.age','logger.cat.gender'],
 fieldNames: ['datetime','host','pet name','pet age','pet gender'],
 del: '\t'}, function(err, tsv) {
   if (err) console.log(err);
