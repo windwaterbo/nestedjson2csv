@@ -1,0 +1,56 @@
+{
+  "name": "nestedjson2csv",
+  "preferGlobal": "true",
+  "version": "2.0",
+  "description": "Convert nested json to csv with column titles",
+  "keywords": [
+    "nested",
+    "json",
+    "to",
+    "csv",
+    "export",
+    "convert",
+    "parse"
+  ],
+  "author": {
+    "name": "Macy Kung",
+    "email": "windwaterbo@gmail.com",
+    "twitter": "windwaterbo"
+  },
+  "contributors":[
+  {
+    "name": "Macy Kung",
+    "email": "windwaterbo@gmail.com",
+    "twitter": "windwaterbo"
+  },
+  {
+    "name": "Mirco Zeiss",
+    "email": "mirco.zeiss@gmail.com",
+    "twitter": "zeMirco"
+  }
+  ],
+  "bin": {
+    "nestedjson2csv": "./bin/nestedjson2csv.js"
+  },
+  "main": "./lib/nestedjson2csv.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windwaterbo/nestedjson2csv"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "format": "node ./node_modules/js-beautify/js/bin/js-beautify.js lib/json2csv.js test/test.js package.json -r --config js-beautify.json"
+  },
+  "dependencies": {
+    "commander": "~1.0.5",
+    "cli-table": "~0.2.0",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "should": "~2.0.2",
+    "async": "~0.2.9",
+    "js-beautify": "~1.4.2"
+
+  }
+}

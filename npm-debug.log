@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '/local/path/to/repo' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ '/local/path/to/repo', null ]
+7 verbose cache add name=undefined spec="/local/path/to/repo" args=["/local/path/to/repo",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '/local/path/to/repo',
+8 verbose parsed url   path: '/local/path/to/repo',
+8 verbose parsed url   href: '/local/path/to/repo' }
+9 silly lockFile 23be1912-local-path-to-repo /local/path/to/repo
+10 verbose lock /local/path/to/repo C:\Users\justin\AppData\Roaming\npm-cache\23be1912-local-path-to-repo.lock
+11 silly lockFile 23be1912-local-path-to-repo /local/path/to/repo
+12 silly lockFile 23be1912-local-path-to-repo /local/path/to/repo
+13 error addLocal Could not install /local/path/to/repo
+14 error Error: ENOENT, stat 'G:\local\path\to\repo'
+15 error If you need help, you may report this *entire* log,
+15 error including the npm and node versions, at:
+15 error     <http://github.com/npm/npm/issues>
+16 error System Windows_NT 6.1.7601
+17 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "/local/path/to/repo"
+18 error cwd G:\json2csv-master
+19 error node -v v0.10.28
+20 error npm -v 1.4.9
+21 error path G:\local\path\to\repo
+22 error code ENOENT
+23 error errno 34
+24 verbose exit [ 34, true ]
