@@ -127,4 +127,8 @@ datetime host pet name pet age pet gender
 
 If no delimiter is specified, the default `,` is used
 
+## update log
+
+- 2015.07.09 : fix text containing literal \r\n strings @v2.0.1
+
 

@@ -1,7 +1,7 @@
 {
   "name": "nestedjson2csv",
   "preferGlobal": "true",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "./lib/nestedjson2csv",
   "description": "Convert nested json to csv with column titles",
   "keywords": [
@@ -63,5 +63,5 @@
     "url": "https://github.com/windwaterbo/nestedjson2csv/issues"
   },
   "readmeFilename": "README.md",
-  "_id": "nestedjson2csv@2.0.0"
+  "_id": "nestedjson2csv@2.0.1"
 }
