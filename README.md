@@ -1,3 +1,8 @@
+> ⚠️ **Archived / No longer maintained**
+> This package was built in 2015 to address a gap in nested JSON handling for structured-data pipelines.
+> The ecosystem has since evolved — see [json-2-csv](https://www.npmjs.com/package/json-2-csv) for a actively maintained alternative.
+> Total downloads: 33,000+ (2015–2026)
+
 # Convert nested json to csv
 
 Sources from the [json2csv](https://www.npmjs.org/package/json2csv) to improve. Converts nested json into csv with column titles and proper line endings.
